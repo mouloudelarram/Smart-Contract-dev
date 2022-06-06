@@ -1,0 +1,164 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Groupe",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "varNumPeople",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "NameToVarNum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "propsName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "propsVarNum",
+						"type": "uint256"
+					}
+				],
+				"name": "addPeople",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "varNumPeople",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "props",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "props",
+						"type": "uint256"
+					}
+				],
+				"name": "sum",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"github/mouloudelarram/Smart-Contract-dev/SimpleStorage.sol": "SimpleStorage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"github/mouloudelarram/Smart-Contract-dev/SimpleStorage.sol": {
+			"keccak256": "0xe5ac2a398d622b5a8f38a2959be9d9c9848e71c5b40cb0b444f7e0d41d129db9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d8b63370ae4eb97e16e8098e622f5305428b4e122f3c7962355fa558b3607e31",
+				"dweb:/ipfs/QmPdvTUgMPghWMxEFXatkzHPsLEx9GsospoG36GCkXEdbL"
+			]
+		}
+	},
+	"version": 1
+}
